@@ -1,0 +1,92 @@
+:root {
+  --white: rgb(255, 255, 255);
+  --black: rgb(0, 0, 0);
+  --light-blue: rgb(208, 214, 249);
+  --dark-blue: rgb(11, 13, 23);
+  --grey: rgb(128, 128, 128);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: url(../assets/home/background-home-desktop.jpg);
+}
+
+/* HEADER */
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  margin-top: 15px;
+}
+
+.header:nth-child(2) {
+  position: relative;
+  right: -30px;
+  width: 33%;
+  height: 100%;
+  z-index: 1;
+}
+
+.header:last-child {
+  width: 60%;
+}
+
+/* LOGO */
+#logo {
+  width: 7%;
+}
+
+#logo > img {
+  margin: 25px 30px;
+  width: 50%;
+}
+
+/* GREY LINE */
+#line {
+  border: 1px solid #575353;
+  margin-top: 10%;
+  margin-left: 50px;
+  width: 400px;
+  height: 1px;
+}
+
+/* NAVBAR */
+nav {
+  overflow: hidden;
+  padding-left: 100px;
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+}
+
+nav a {
+  float: left;
+  color: var(--white);
+  font-size: 17px;
+  height: 100%;
+  padding: 5.5% 0;
+  margin: 0 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+nav a:first-child {
+  margin-left: 50px;
+}
+
+nav a > span {
+  font-weight: 100;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #979797;
+}
+
+nav a.active {
+  border-bottom: 3px solid #c4c2c2;
+}

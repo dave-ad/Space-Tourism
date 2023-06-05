@@ -1,0 +1,19 @@
+# Avoid accidental upload of the Figma design file
+#####################################################
+## Please do not remove line 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
+# Avoid upload of webpage assets
+*/assets
+
+# Avoid upload of Readme template
+*README-template.md
+
+# No upload of other tabs for now!
+*/assets/.html
