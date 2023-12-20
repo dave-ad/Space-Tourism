@@ -1,0 +1,84 @@
+body {
+    color: var(--white);
+    background: url(../assets/destination/background-destination-desktop.jpg);
+}
+
+/* HERO CONTENT  */
+#hero{
+    margin-top: 70px;
+}
+
+#hero img {
+    width: 350px;
+    margin-left: 130px;
+    margin-top: 60px;
+}
+
+.content h1 {
+    font-size: 100px;
+    color: var(--white);
+}
+
+/* DESTINATION NAV */
+.destination-nav {
+    overflow: hidden;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.destination-nav a {
+    float: left;
+    color: var(--grey);
+    font-family: "Barlow Condensed", sans-serif;
+    font-size: 17px;
+    height: 100%;
+    padding: 3% 0;
+    margin: 0 7px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.destination-nav a:first-child {
+    margin-left: 80px;
+}
+
+.destination-nav a > span {
+    font-weight: 100;
+}
+
+.destination-nav a:hover {
+    border-bottom: 3px solid #979797;
+}
+
+.destination-nav a.active {
+    border-bottom: 3px solid #c4c2c2;
+}
+
+.writeup {
+    margin-left: 80px;
+    color: var(--grey);
+}
+
+.writeup p {
+    font-size: 80%;
+}
+
+.line {
+    border: 1px solid #575353;
+    margin-top: 10%;
+    width: 100%;
+    height: 1px;
+}
+
+.holder {
+    display: flex;
+}
+
+.deets {
+    margin-top: 20px;
+    width: 50%;
+}
+
+.deets h4 {
+    margin-top: 10px;
+}
